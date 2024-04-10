@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Juan Bogota">
+    <meta name="description" content="Portafolio de desarrollo web Juan Bogota">
+    <meta name="keywords" content="html, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Juan Bogota | Desarrollo Web Front-End</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/perro.jpg">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- iconos de Booststrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+  </head>
+<body>
+  <!-- Barra de Navegacion -->
+  <nav class="navbar navbar-expand-md navbar-ligth">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-Toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <a class="navbar-brand" href="#">
+          <img src="imagenes/perro.jpg" width="50" alt="logo de la pagina web"> 
+        </a>
+        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#testimonios">Testimonios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Secciopn Hero -->
+  <section class="hero align-items-stretch">
+    <div>
+      <img src="imagenes/desarrollador.svg" alt="Foto de Juan Bogota" width="200" height="150">
+      <h1>Hola, soy Juan Bogotá</h1>
+      <h2>Desarrollo sitios web y me especializo en programación</h2>
+    </div>
+    <div class="hero-inferior">
+      <img class="hero-inferior-imagen img-fluid" src="imagenes/hero-inferior.png" alt="Monitor, laptop y logos de html, CSS, JavaScript y React.">
+    </div>
+  </section>
+
+   <!-- Sobre mi -->
+  <section id="sobre-mi" class="sobre-mi seccion-oscura">
+    <div class="contenedor"> 
+      <h2 class="seccion-titulo">Conoce a Juan Bogotá</h2>
+      <p class="seccion-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi convallis dui felis, ut tempus libero placerat maximus. Aenean et sapien non lorem dictum laoreet. Suspendisse potenti. In consectetur faucibus ultrices. Quisque dictum semper orci, in vestibulum risus sollicitudin vehicula. Suspendisse tincidunt vitae diam quis ultrices. Sed nec nisl in enim ornare eleifend. Mauris eu tincidunt felis. Pellentesque in placerat orci. Donec cursus sollicitudin erat, et fermentum tortor congue non. Sed pharetra erat ac suscipit faucibus. Duis egestas purus quis ex commodo commodo. In sagittis lectus massa, at facilisis libero tristique id. Vestibulum in tellus quis risus facilisis semper et eget orci. Integer lobortis ullamcorper nisi, quis sollicitudin orci sodales ac</p>
+    
+    </div>
+  </section>
+
+  <!-- Experiencia -->
+  <section class="experiencia seccion-clara">
+    <div class="container text-center">
+      <div class="row">
+        <!-- Desarrollo web -->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo">Desarrollo Web</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi convallis dui felis, ut tempus libero placerat maximus. Aenean et sapien non lorem dictum laoreet. Suspendisse potenti. In consectetur faucibus ultrices.</p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">HTML</span>
+            <span class="badge text-bg-primary">CSS</span>
+            <span class="badge text-bg-primary">JavaScript</span>
+            <span class="badge text-bg-primary">React</span>
+          </div>
+        </div>
+        <!-- Articulos -->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo">Artículos</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi convallis dui felis, ut tempus libero placerat maximus. Aenean et sapien non lorem dictum laoreet. Suspendisse potenti. In consectetur faucibus ultrices.</p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">Escribir</span>
+            <span class="badge text-bg-primary">Editar</span>
+            <span class="badge text-bg-primary">Blogs</span>
+          </div>
+        </div>
+        <!-- Estudiante -->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo">Estudiante</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi convallis dui felis, ut tempus libero placerat maximus. Aenean et sapien non lorem dictum laoreet. Suspendisse potenti. In consectetur faucibus ultrices.</p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">FreeCodeCamp</span>
+            <span class="badge text-bg-primary">Desarrollo Web</span>
+            <span class="badge text-bg-primary">Python</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proyectos -->
+  <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+    <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+    <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+    <!-- Galeria de Proyectos -->
+    <div class="container text-center proyectos-contenedor">
+      <div class="row">
+        <!-- proyecto 1 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/proyecto-1.png" alt="proyecto-1">
+            <div class="overlay">
+              <p>Proyecto 1</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- proyecto 2 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/proyecto-2.png" alt="proyecto-2">
+            <div class="overlay">
+              <p>Proyecto 2</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- proyecto 3 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/proyecto-3.png" alt="proyecto-3">
+            <div class="overlay">
+              <p>Proyecto 3</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- proyecto 4 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/proyecto-4.png" alt="proyecto-4">
+            <div class="overlay">
+              <p>Proyecto 4</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- proyecto 5 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/proyecto-5.png" alt="proyecto-5">
+            <div class="overlay">
+              <p>Proyecto 5</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- proyecto 6 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/proyecto-6.png" alt="proyecto-6">
+            <div class="overlay">
+              <p>Proyecto 6</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="http://github.com/" target="_blank" rel="noopener noreferrer">
+      <button type="button" class="btn btn-info">
+         Ver más proyectos
+        <i class="bi bi-arrow-right-circle-fill"></i>
+      </button>
+    </a>
+  </section>
+
+  <!-- Articulos -->
+  <section class="articulos justify-content-start">
+    <h2 class="seccion-titulo texto-negro">Artículos</h2>
+    <div class="card">
+      <div class="card-header">
+        Más recientes
+      </div>
+      <ul class="list-group list-group-flush">
+        <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+        <li class="list-group-item">Como usar github-copilot, para ser un desarrollador más feliz </li>
+        </a>
+        <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">Como copiar texto al Clipboard con JavaScript</li>
+        </a>
+        <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">Cómo utilizar la API React context en tus proyectos</li>
+        </a>
+        <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">Operador C: Operadores lógicos en programación en C</li>
+        </a>
+        <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">Tutorial de programación de Bash: Script de Shell de Linux y línea de comandos para principiantes</li>
+        </a>
+        <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">Declaraciones C Break y Continue - Explicación de las Declaraciones de Control de Bucle en C</li>
+        </a>
+      </ul>
+    </div>
+    <a href="http://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+      <button type="button" class="btn btn-info">
+         Ver más artículos
+        <i class="bi bi-arrow-right-circle-fill"></i>
+      </button>
+    </a>
+  </section>
+
+  <!-- Testimonios -->
+  <section id="testimonios" class="testimonios seccion-clara">
+    <h2 class="seccion-titulo">Testimonios</h2>
+    <h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes...</h3>
+
+    <!-- Carrusel -->
+    <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="imagenes/cliente 1.png" alt="Cliente Carlos">
+            <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi convallis dui felis, ut tempus libero placerat maximus.</p>
+            <div class="testimonio-info">
+              <p class="cliente">Carlos</p>
+              <p class="cargo">Gerente de proyectos en Desarrollo Web</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="imagenes/cliente 2.png" alt="Cliente Nohora">
+            <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi convallis dui felis, ut tempus libero placerat maximus.</p>
+            <div class="testimonio-info">
+              <p class="cliente">Nohora</p>
+              <p class="cargo">Gerente de Diseña mi pagina</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="imagenes/cliente 3.png" alt="Cliente Silvia">
+            <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi convallis dui felis, ut tempus libero placerat maximus.</p>
+            <div class="testimonio-info">
+              <p class="cliente">Silvia</p>
+              <p class="cargo">Directora de proyectos en Desarrollo Backend</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">siguiente</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+
+  <section id="contacto" class="contacto seccion-oscura">
+    <div class="container">
+    <div class="container text-center rectangulo d-flex justify-content-evenly">
+      <div class="row">
+        <div class="col-12 col-md-4 seccion-titulo">
+          ¡Hablemos!
+        </div>
+        <div class="col-12 col-md-4 description">
+          Contactame para iniciar tu proyecto de desarollo, y haremos que tu vision se vuelva realidad 
+        </div>
+        <div class="col-12 col-md-4">
+          <a href="mailto:juancbc2014@tucorreo.com">
+            <button type="button">
+              Contacto
+              <i class="bi bi-envelope-check-fill"></i>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- Pie de pagina -->
+  <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+    <img class="footer-logo" src="imagenes/perro.ico" alt="Logo del Portafolio">
+    <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
+    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+      <a href="https://twitter.com/freecodecampES" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-twitter-x"></i>
+      </a>
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-github"></i>
+      </a>
+      <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="https://bi-instagram.com" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="mailto:juancbc@tucorreo.com" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-envelope"></i>
+      </a>
+    </div>
+    <div class="derechos de autor">Creado por Juan Bogotá (2024) &#169;</div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
